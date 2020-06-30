@@ -30,7 +30,7 @@ public class CalculationTest {
         assertEquals(27, calculation.cube(3));
     }
 
-    //TODO : 1. Add test case for reverseWord function of Calculation (2 marks)
+    //TODO : 1. Add test case for reverseWord function of Calculation (2 marks) -Done by Divya
     @Test
     public void testReverseWord(){
         System.out.println("test case reverseWord");
