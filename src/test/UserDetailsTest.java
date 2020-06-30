@@ -26,6 +26,7 @@ public class UserDetailsTest {
     //TODO :8. Write TestCase for function VerifyCountry() (3marks) -Done by Shivam
     @Test
     public void TestVerifyCountry(){
+        System.out.println("test case verify country");
         useraddress.setCountry("CA");
         u.setAddress(useraddress);
         assertTrue(userdetails.VerifyCountry(u));
@@ -35,6 +36,7 @@ public class UserDetailsTest {
     //TODO :9. Write TestCase for function SalaryAccumulated() (3marks) -Done by Divya
     @Test
     public void TestsalaryAccumulated(){
+        System.out.println("test case salary accumulated");
         u.setSalary(10000.0);
         u.setAge(30);
         assertEquals(16406.059944647295,userdetails.SalaryAccumulated(u));

@@ -11,6 +11,7 @@ public class ExceptionClassTest {
     ExceptionClass tester = new ExceptionClass();
     @Test(expected=IllegalArgumentException.class)
     public void testExceptionIsThrown() {
+        System.out.println("test case Exception");
         tester.multiply(1000, 5);
     }
 
@@ -18,6 +19,7 @@ public class ExceptionClassTest {
     //TODO :3. Complete the test case to test if the multiply function is giving correct answer or not ( 2 marks) - Done by Madhav
     @Test
     public void testMultiply() {
+        System.out.println("test case multiply");
         assertEquals(6,tester.multiply(3,2));
     }
 }
