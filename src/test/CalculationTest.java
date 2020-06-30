@@ -31,7 +31,11 @@ public class CalculationTest {
     }
 
     //TODO : 1. Add test case for reverseWord function of Calculation (2 marks)
-
+    @Test
+    public void testReverseWord(){
+        System.out.println("test case reverseWord");
+        assertEquals("aba ", calculation.reverseWord("aba"));
+    }
 
    
     @After
